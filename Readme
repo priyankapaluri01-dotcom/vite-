@@ -6,7 +6,7 @@ Serves only the files your project imports (on-demand compilation).
 Provides Hot Module Replacement (HMR) → where when u update only ine file no need of reoading the whole pages 
 Production Mode:
 Uses Rollup to make files optimized .
-Optimizes code for performance, tree-shaking, and caching.
+Optimizes code for performance, tree-shaking(Tree-shaking will cut out the code you never use so the final bundle is smaller and faster.), and caching.
 Setup with React:
 Command: npm create vite@latest → select React template → project ready.
 JSX and modern JavaScript supported out-of-the-box.
